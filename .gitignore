@@ -1,37 +1,33 @@
-# Python cache
+# Python bytecode and cache
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Packages
-*.egg-info/
-build/
-dist/
-*.whl
+# Installed packages (remove these from repo too)
+bin/
+certifi*/
+charset_normalizer*/
+idna*/
+requests*/
+urllib3*/
 
-# Dependency folders installed for zip
-requests/
-urllib3/
-chardet/
-idna/
-certifi/
+# Distribution metadata
+*.dist-info/
 
 # Virtual environments
 env/
 venv/
-ENV/
 .venv/
+ENV/
 
-# Archives
-*.zip
-
-# OS files
+# OS and editor files
 .DS_Store
 Thumbs.db
-
-# VS Code and IDEs
 .vscode/
 .idea/
+
+# Zip files and archives
+*.zip
 
 # AWS keys and configs
 *.pem
