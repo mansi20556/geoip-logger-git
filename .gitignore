@@ -1,0 +1,40 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Packages
+*.egg-info/
+build/
+dist/
+*.whl
+
+# Dependency folders installed for zip
+requests/
+urllib3/
+chardet/
+idna/
+certifi/
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+
+# Archives
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code and IDEs
+.vscode/
+.idea/
+
+# AWS keys and configs
+*.pem
+*.key
+*.crt
+.aws/
